@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ROS 2 Jazzy Notes</title>
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+
+</head>
+<body class="container py-4">
+
+  <h1>ROS 2 Jazzy Notes</h1>
+
+  <!-- General Section -->
+  <div class="card mb-4">
+    <div class="card-header bg-primary text-white">
+      <h2 class="mb-0">Bienvenido al Curso de ROS 2</h2>
+    </div>
+    <div class="card-body">
+      <p id="docs-internal-guid-791d960f-7fff-ed92-baa6-3457fa10d419" dir="ltr" style="line-height: 1.68; text-align: justify; margin-top: 12pt; margin-bottom: 12pt;"><span style="font-size: 11pt; font-family: Roboto,sans-serif; color: #666666; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Este curso te llevará paso a paso, desde un nivel principiante hasta convertirte en un desarrollador de ROS 2 capaz de crear aplicaciones robóticas escalables.</span></p>
+      <p dir="ltr" style="line-height: 1.68; text-align: justify; margin-top: 12pt; margin-bottom: 12pt;"><span style="font-size: 11pt; font-family: Roboto,sans-serif; color: #666666; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Si estás comenzando con ROS 2 y no sabes por dónde empezar, este curso está diseñado para ti. Aquí aprenderás </span><span style="font-size: 11pt; font-family: Roboto,sans-serif; color: #e01b84; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">desde cero</span><span style="font-size: 11pt; font-family: Roboto,sans-serif; color: #666666; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">, sin necesidad de conocimientos previos en ROS1, evitando la confusión y la curva de aprendizaje empinada que muchos enfrentan.</span></p>
+      <p dir="ltr" style="line-height: 1.68; text-align: justify; margin-top: 12pt; margin-bottom: 12pt;"><span style="font-size: 11pt; font-family: Roboto,sans-serif; color: #666666; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">El contenido está estructurado de manera progresiva, con explicaciones claras y prácticas, para que puedas desarrollar tus propias aplicaciones en ROS 2 con confianza.</span></p>
+      <p dir="ltr" style="line-height: 1.68; text-align: justify; margin-top: 12pt; margin-bottom: 12pt;"><span style="font-size: 11pt; font-family: Roboto,sans-serif; color: #666666; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Si ya tienes conocimientos básicos en ROS 2 y buscas avanzar en la creación y simulación de robots personalizados, este curso también te permitirá profundizar en herramientas clave como </span><span style="font-size: 11pt; font-family: Roboto,sans-serif; color: #e01b84; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">URDF, TF, y el diseño de arquitecturas de software en ROS2</span><span style="font-size: 11pt; font-family: Roboto,sans-serif; color: #666666; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">.</span></p>
+    </div>
+  </div>
+
+  <!-- Course Sections -->
+  <div class="accordion" id="lectures">
+
+    <!-- Sección 1: Introducción -->
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" data-bs-toggle="collapse"
+                data-bs-target="#sec1">
+          Sección 1: Introducción
+        </button>
+      </h2>
+      <div id="sec1" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          <div class="list-group">
+            <a href="section1/1_1.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section1_1_1">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>1.1. Introducción a ROS2: qué es, por qué usarlo y cuándo aplicarlo</h5>
+                  <p class="mb-0 text-muted">PDF - Fundamentos esenciales de ROS 2</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section1_1_1" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section1/1_2.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section1_1_2">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>1.2. Recursos adicionales</h5>
+                  <p class="mb-0 text-muted">Cursos y materiales complementarios para el aprendizaje</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section1_1_2" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sección 2: Instala ROS2 y configura tu entorno -->
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                data-bs-target="#sec2">
+          Sección 2: Instala ROS 2 y configura tu entorno
+        </button>
+      </h2>
+      <div id="sec2" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          <div class="list-group">
+            <a href="section2/2_1.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section2_2_1">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>2.1. Instala Ubuntu 24.04 en una Máquina Virtual (VirtualBox)</h5>
+                  <p class="mb-0 text-muted">Aprenderás a instalar Ubuntu 24.04 en una máquina virtual utilizando VirtualBox, una herramienta clave para quienes no pueden instalar Ubuntu directamente.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section2_2_1" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section2/2_2.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section2_2_2">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>2.2. Herramientas para programación adicionales</h5>
+                  <p class="mb-0 text-muted">Instala y configura Terminator, VS Code y Gedit para facilitar el desarrollo en ROS 2.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section2_2_2" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section2/2_3.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section2_2_3">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>2.3. Instala ROS 2 Jazzy en Ubuntu 24.04</h5>
+                  <p class="mb-0 text-muted">Instalación paso a paso de ROS 2 Jazzy en un sistema nativo o máquina virtual.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section2_2_3" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section2/2_4.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section2_2_4">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>2.4. Configura tu entorno para ROS 2</h5>
+                  <p class="mb-0 text-muted">Configuración manual y automatizada del entorno para que los comandos funcionen correctamente.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section2_2_4" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section2/2_5.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section2_2_5">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>2.5. Ejecuta tu primer programa de ROS 2</h5>
+                  <p class="mb-0 text-muted">Ejecuta los programas de ejemplo talker y listener para verificar que el entorno está correctamente instalado.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section2_2_5" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section2/2_6.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section2_2_6">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>2.6. Utilizar ROS 2 en Línea con The Construct</h5>
+                  <p class="mb-0 text-muted">Accede a ROS 2 sin necesidad de instalación local usando The Construct, una plataforma en la nube para desarrollo robótico.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section2_2_6" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sección 3 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                data-bs-target="#sec3">
+          Sección 3: Escribe tu primer programa de ROS 2
+        </button>
+      </h2>
+      <div id="sec3" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          <div class="list-group">
+            <a href="section3/3_1.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section3_3_1">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>3.1. Creación y configuración del workspace en ROS 2</h5>
+                  <p class="mb-0 text-muted">Aprenderás cómo crear un workspace en ROS 2, configurarlo correctamente y dejarlo listo para desarrollar.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section3_3_1" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section3/3_2.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section3_3_2">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>3.2. Creación de un paquete Python en ROS 2</h5>
+                  <p class="mb-0 text-muted">Aprenderás a crear un paquete Python en ROS 2 dentro de tu workspace.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section3_3_2" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section3/3_3.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section3_3_3">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>3.3. Creación de un paquete C++ en ROS 2</h5>
+                  <p class="mb-0 text-muted">Aprenderás cómo crear un paquete C++ usando ament_cmake y compilarlo correctamente.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section3_3_3" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section3/3_4.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section3_3_4">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>3.4. ¿Qué es un nodo en ROS 2?</h5>
+                  <p class="mb-0 text-muted">Comprenderás qué es un nodo, su rol en ROS 2 y cómo se relaciona con otros componentes.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section3_3_4" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section3/3_5.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section3_3_5">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>3.5. Crear, instalar y ejecutar un nodo Python básico en ROS 2</h5>
+                  <p class="mb-0 text-muted">Aprenderás a crear, instalar y ejecutar tu primer nodo Python con ros2 run.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section3_3_5" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section3/3_6.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section3_3_6">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>3.6. Nodo Python con Programación Orientada a Objetos (OOP) y temporizador</h5>
+                  <p class="mb-0 text-muted">Mejorarás tu nodo Python con OOP y aprenderás a usar temporizadores para acciones periódicas.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section3_3_6" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section3/3_7.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section3_3_7">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>3.7. Crear, compilar e instalar un nodo C++ en ROS 2</h5>
+                  <p class="mb-0 text-muted">Aprenderás a crear, compilar e instalar tu primer nodo C++ en ROS 2.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section3_3_7" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section3/3_8.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section3_3_8">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>3.8. Nodo C++ con Programación Orientada a Objetos (OOP) y temporizador</h5>
+                  <p class="mb-0 text-muted">Mejorarás tu nodo C++ con OOP y temporizadores para una mejor arquitectura.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section3_3_8" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section3/3_9.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section3_3_9">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>3.9. OOP Template</h5>
+                  <p class="mb-0 text-muted">Plantilla profesional para estructurar escalablemente tus nodos en ROS 2.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section3_3_9" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sección 4 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                data-bs-target="#sec4">
+          Sección 4: Introducción a herramientas de ROS 2
+        </button>
+      </h2>
+      <div id="sec4" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          <div class="list-group">
+            <a href="section4/4_1.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section4_4_1">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>4.1. Ejecutar e inspeccionar nodos con la línea de comandos de ROS 2</h5>
+                  <p class="mb-0 text-muted">Aprenderás a ejecutar nodos con ros2 run e inspeccionar nodos activos con ros2 node list e info.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section4_4_1" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section4/4_2.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section4_4_2">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>4.2. Ejecutar múltiples instancias de un nodo usando remapeo de nombres en ROS 2</h5>
+                  <p class="mb-0 text-muted">Aprenderás a ejecutar varias instancias del mismo nodo con diferentes nombres usando remapeo.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section4_4_2" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section4/4_3.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section4_4_3">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>4.3. Opción --symlink-install para desarrollo rápido de nodos Python en ROS 2</h5>
+                  <p class="mb-0 text-muted">Aprenderás a usar --symlink-install para acelerar el desarrollo sin recompilar cada vez.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section4_4_3" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section4/4_4.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section4_4_4">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>4.4. Visualizar nodos con rqt_graph en ROS 2</h5>
+                  <p class="mb-0 text-muted">Aprenderás a visualizar nodos y sus conexiones en tiempo real con rqt_graph.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section4_4_4" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section4/4_5.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section4_4_5">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>4.5. Introducción a TurtleSim y ejecución de nodos en ROS 2</h5>
+                  <p class="mb-0 text-muted">Aprenderás a iniciar y controlar una simulación 2D básica usando turtlesim.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section4_4_5" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section4/4_6.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section4_4_6">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>4.6. Explicación de ROS_DOMAIN_ID: Aislamiento de Red en ROS 2</h5>
+                  <p class="mb-0 text-muted">Aprenderás cómo ROS 2 usa Domain ID para evitar interferencias entre robots en la misma red.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section4_4_6" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sección 5: ROS 2 Topics -->
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                data-bs-target="#sec5">
+          Sección 5: ROS 2 Topics - Haz que tus nodos se comuniquen entre ellos
+        </button>
+      </h2>
+      <div id="sec5" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          <div class="list-group">
+            <a href="section5/5_1.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section5_5_1">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>5.1. ¿Qué es un topic en ROS 2?</h5>
+                  <p class="mb-0 text-muted">Aprende la analogía de emisoras de radio y cómo se comunican los nodos mediante topics.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section5_5_1" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section5/5_2.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section5_5_2">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>5.2. Crear un publisher en Python con ROS 2</h5>
+                  <p class="mb-0 text-muted">Crea tu primer nodo publicador en Python que envía mensajes a un topic.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section5_5_2" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section5/5_3.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section5_5_3">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>5.3. Crear un subscriber en Python con ROS 2</h5>
+                  <p class="mb-0 text-muted">Crea un nodo suscriptor en Python que recibe mensajes de un topic.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section5_5_3" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section5/5_4.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section5_5_4">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>5.4. Crear un nodo publicador en C++ para ROS 2</h5>
+                  <p class="mb-0 text-muted">Implementa un publicador en C++ usando rclcpp.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section5_5_4" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section5/5_5.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section5_5_5">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>5.5. Crear un nodo suscriptor en C++ para ROS 2</h5>
+                  <p class="mb-0 text-muted">Implementa un suscriptor en C++ usando rclcpp.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section5_5_5" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section5/5_6.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section5_5_6">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>5.6. Introspección de tópicos en ROS 2 usando la línea de comandos</h5>
+                  <p class="mb-0 text-muted">Explora y analiza los tópicos disponibles con herramientas de línea de comandos.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section5_5_6" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section5/5_7.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section5_5_7">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>5.7. Renombrar nodos y tópicos en tiempo de ejecución con ROS 2</h5>
+                  <p class="mb-0 text-muted">Utiliza remapeo para renombrar nodos y tópicos dinámicamente.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section5_5_7" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section5/5_8.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section5_5_8">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>5.8. Monitoreo de tópicos con RQT Graph</h5>
+                  <p class="mb-0 text-muted">Visualiza gráficamente los tópicos y sus conexiones.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section5_5_8" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sección 6 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                data-bs-target="#sec6">
+          Sección 6: ROS 2 Services - Client / Server
+        </button>
+      </h2>
+      <div id="sec6" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          <div class="list-group">
+            <a href="section6/6_1.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section6_6_1">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>6.1. Creación de un servidor de servicio en ROS 2 con Python</h5>
+                  <p class="mb-0 text-muted">Aprenderás a crear un servidor de servicio en ROS 2 utilizando Python, permitiendo que otros nodos soliciten acciones a través de un patrón cliente-servidor.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section6_6_1" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section6/6_2.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section6_6_2">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>6.2. Creación de un cliente de servicio en ROS 2 con Python con OOP</h5>
+                  <p class="mb-0 text-muted">Aprenderás a crear un cliente de servicio en ROS 2 utilizando Python con programación orientada a objetos (OOP), permitiendo que tu nodo solicite servicios de forma estructurada y escalable.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section6_6_2" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section6/6_3.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section6_6_3">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>6.3. Creación de un servidor de servicio en ROS 2 con C++</h5>
+                  <p class="mb-0 text-muted">Aprenderás a crear un servidor de servicio en ROS 2 utilizando C++, proporcionando una interfaz de alto rendimiento para que otros nodos soliciten servicios.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section6_6_3" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section6/6_4.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section6_6_4">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>6.4. Creación de un cliente de servicio en ROS 2 con C++ con OOP</h5>
+                  <p class="mb-0 text-muted">Aprenderás a crear un cliente de servicio en ROS 2 utilizando C++ con programación orientada a objetos (OOP), permitiendo una arquitectura robusta y mantenible para solicitar servicios.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section6_6_4" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section6/6_5.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section6_6_5">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>6.5. Introspección de servicios en ROS 2 con la línea de comandos</h5>
+                  <p class="mb-0 text-muted">Aprenderás a usar herramientas de línea de comandos en ROS 2 para inspeccionar, listar y analizar servicios disponibles en tu sistema.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section6_6_5" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sección 7: ROS 2 Nodes Parameters -->
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                data-bs-target="#sec7">
+          Sección 7: ROS 2 Nodes Parameters
+        </button>
+      </h2>
+      <div id="sec7" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          <div class="list-group">
+            <a href="section7/7_1.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section7_7_1">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>7.1. Uso de parámetros en nodos ROS 2 con Python</h5>
+                  <p class="mb-0 text-muted">Aprenderás cómo declarar, leer y modificar parámetros en nodos Python de ROS 2 durante la ejecución.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section7_7_1" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section7/7_2.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section7_7_2">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>7.2. Uso de parámetros en nodos ROS 2 con C++</h5>
+                  <p class="mb-0 text-muted">Aprenderás cómo declarar, leer y modificar parámetros en nodos C++ de ROS 2 durante la ejecución.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section7_7_2" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section7/7_3.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section7_7_3">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>7.3. Práctica con parámetros en ROS 2 usando TurtleSim</h5>
+                  <p class="mb-0 text-muted">Aplicarás tus conocimientos de parámetros en una práctica interactiva usando TurtleSim para modificar el comportamiento de la simulación.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section7_7_3" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section7/7_4.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section7_7_4">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>7.4. Uso de archivos YAML para configurar parámetros en ROS 2</h5>
+                  <p class="mb-0 text-muted">Aprenderás a usar archivos YAML para configurar parámetros de forma centralizada y reutilizable en tus nodos ROS 2.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section7_7_4" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sección 8: ROS 2 Launch Files -->
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                data-bs-target="#sec8">
+          Sección 8: ROS 2 Launch Files
+        </button>
+      </h2>
+      <div id="sec8" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          <div class="list-group">
+            <a href="section8/8_1.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section8_8_1">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>8.1. Creación de un archivo Launch en ROS 2 (formato XML)</h5>
+                  <p class="mb-0 text-muted">Aprenderás a crear tu primer archivo Launch en ROS 2 usando el formato XML, automatizando la ejecución de múltiples nodos.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section8_8_1" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section8/8_2.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section8_8_2">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>8.2. Comparación y uso de archivos Launch en ROS 2 (XML vs Python)</h5>
+                  <p class="mb-0 text-muted">Conocerás las diferencias entre archivos Launch en formato XML y Python, y aprenderás cuándo usar cada uno.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section8_8_2" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section8/8_3.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section8_8_3">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>8.3. Renombrar nodos y remapear tópicos</h5>
+                  <p class="mb-0 text-muted">Aprenderás a renombrar nodos dinámicamente y remapear tópicos dentro de archivos Launch para una configuración flexible.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section8_8_3" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section8/8_4.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section8_8_4">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>8.4. Carga de parámetros desde archivos Launch en ROS 2 (directo y desde YAML)</h5>
+                  <p class="mb-0 text-muted">Aprenderás a cargar parámetros en tus nodos directamente desde archivos Launch o desde archivos YAML externos.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section8_8_4" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section8/8_5.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section8_8_5">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>8.5. Uso de Namespaces en ROS 2 y archivos Launch</h5>
+                  <p class="mb-0 text-muted">Aprenderás a organizar nodos usando Namespaces en tus archivos Launch para una jerarquía clara y evitar conflictos de nombres.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section8_8_5" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sección 9: TF (Transform) -->
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                data-bs-target="#sec9">
+          Sección 9: TF (Transform)
+        </button>
+      </h2>
+      <div id="sec9" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          <div class="list-group">
+            <a href="section9/9_1.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section9_9_1">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>9.1. Visualización de un robot y uso de TF en ROS 2 con RViz</h5>
+                  <p class="mb-0 text-muted">Aprenderás a visualizar un robot en RViz y a utilizar el sistema de transformaciones (TF) para entender cómo se relacionan los diferentes componentes del robot en el espacio.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section9_9_1" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section9/9_2.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section9_9_2">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>9.2. Entender el árbol TF y las relaciones entre transformaciones</h5>
+                  <p class="mb-0 text-muted">Comprenderás cómo funciona el árbol de transformaciones (TF tree) en ROS 2 y cómo se relacionan las diferentes transformaciones entre componentes del robot.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section9_9_2" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sección 10: Crea un URDF para tu robot -->
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                data-bs-target="#sec10">
+          Sección 10: Crea un URDF para tu robot
+        </button>
+      </h2>
+      <div id="sec10" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          <div class="list-group">
+            <a href="section10/10_1.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section10_10_1">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>10.1. Creación de un archivo URDF y visualización con RViz</h5>
+                  <p class="mb-0 text-muted">Aprenderás a crear tu primer archivo URDF, entender su estructura XML básica y visualizar tu robot en RViz2.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section10_10_1" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section10/10_2.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section10_10_2">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>10.2. Añadir color a un link URDF con etiquetas material</h5>
+                  <p class="mb-0 text-muted">Aprenderás a añadir colores y propiedades visuales a los links de tu URDF usando las etiquetas material.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section10_10_2" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section10/10_3.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section10_10_3">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>10.3. Añadir un segundo link y primer joint en URDF</h5>
+                  <p class="mb-0 text-muted">Aprenderás a crear múltiples links y conectarlos con joints para construir una cadena cinemática en tu URDF.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section10_10_3" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section10/10_4.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section10_10_4">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>10.4. Añadir un tercer link con su joint y visualización precisa</h5>
+                  <p class="mb-0 text-muted">Aprenderás a expandir tu modelo URDF con un tercer link y precisar los parámetros geométricos para una visualización exacta.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section10_10_4" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section10/10_5.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section10_10_5">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>10.5. Tipos de joints en URDF – Revolute, Continuous y Prismatic</h5>
+                  <p class="mb-0 text-muted">Aprenderás sobre los diferentes tipos de joints disponibles en URDF: revolute, continuous, prismatic y sus características.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section10_10_5" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+            <a href="section10/10_6.html" class="list-group-item list-group-item-action topic-link" data-topic-id="section10_10_6">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <h5>10.6. Añadir una rueda con un joint continuous</h5>
+                  <p class="mb-0 text-muted">Aprenderás a añadir una rueda a tu robot modelo usando un joint de tipo continuous que permite rotación ilimitada.</p>
+                </div>
+                <span class="badge bg-secondary completion-badge" data-topic-id="section10_10_6" style="cursor:pointer; background-color: #f0f0f0 !important; color: #333; border: 2px solid #ccc; padding: 0.35rem 0.65rem;" title="Click para marcar como completado">☐</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sección 11 -->
+    <!-- <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                data-bs-target="#sec11">
+          Sección 11: Broadcast TFs con Robot State Publisher
+        </button>
+      </h2>
+      <div id="sec11" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          Contenido próximamente...
+        </div>
+      </div>
+    </div> -->
+
+    <!-- Sección 12 -->
+    <!-- <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                data-bs-target="#sec12">
+          Sección 12: Mejorar el URDF con Xacro
+        </button>
+      </h2>
+      <div id="sec12" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          Contenido próximamente...
+        </div>
+      </div>
+    </div> -->
+
+    <!-- Sección 13 -->
+    <!-- <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                data-bs-target="#sec13">
+          Sección 13: PlotJuggler / Rviz2
+        </button>
+      </h2>
+      <div id="sec13" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          Contenido próximamente...
+        </div>
+      </div>
+    </div> -->
+
+  </div>
+
+  <!-- Progress Overview -->
+  <div class="card mb-4 border-success mt-5">
+    <div class="card-header bg-success text-white">
+      <h2 class="mb-0 fs-5">Tu Progreso</h2>
+    </div>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <span class="fs-5">Temas completados: <strong id="completedCount">0</strong> / <strong id="totalCount">0</strong></span>
+        <button class="btn btn-sm btn-outline-danger" onclick="clearAllProgress()">Limpiar progreso</button>
+      </div>
+      <div class="progress" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+        <div id="progressBar" class="progress-bar progress-bar-striped" style="width: 0%"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+  </script>
+
+  <script>
+    // All topics to track
+    const allTopics = [
+      'section1_1_1', 'section1_1_2',
+      'section2_2_1', 'section2_2_2', 'section2_2_3', 'section2_2_4', 'section2_2_5', 'section2_2_6',
+      'section3_3_1', 'section3_3_2', 'section3_3_3', 'section3_3_4', 'section3_3_5', 'section3_3_6', 'section3_3_7', 'section3_3_8', 'section3_3_9',
+      'section4_4_1', 'section4_4_2', 'section4_4_3', 'section4_4_4', 'section4_4_5',
+      'section5_5_1', 'section5_5_2', 'section5_5_3', 'section5_5_4', 'section5_5_5', 'section5_5_6', 'section5_5_7', 'section5_5_8',
+      'section6_6_1', 'section6_6_2', 'section6_6_3', 'section6_6_4', 'section6_6_5',
+      'section7_7_1', 'section7_7_2', 'section7_7_3', 'section7_7_4',
+      'section8_8_1', 'section8_8_2', 'section8_8_3', 'section8_8_4', 'section8_8_5',
+      'section9_9_1', 'section9_9_2',
+      'section10_10_1', 'section10_10_2', 'section10_10_3', 'section10_10_4', 'section10_10_5', 'section10_10_6'
+    ];
+
+    function updateProgress() {
+      const completed = allTopics.filter(topic => localStorage.getItem(topic) === 'true').length;
+      const total = allTopics.length;
+      const percentage = Math.round((completed / total) * 100);
+
+      document.getElementById('completedCount').textContent = completed;
+      document.getElementById('totalCount').textContent = total;
+      
+      const progressBar = document.getElementById('progressBar');
+      progressBar.style.width = percentage + '%';
+      progressBar.setAttribute('aria-valuenow', percentage);
+
+      // Update badge appearance
+      document.querySelectorAll('.completion-badge').forEach(badge => {
+        const topicId = badge.getAttribute('data-topic-id');
+        if (localStorage.getItem(topicId) === 'true') {
+          badge.textContent = '☑';
+          badge.style.backgroundColor = '#28a745 !important';
+          badge.style.color = 'white';
+          badge.style.borderColor = '#28a745';
+        } else {
+          badge.textContent = '☐';
+          badge.style.backgroundColor = '#f0f0f0 !important';
+          badge.style.color = '#333';
+          badge.style.borderColor = '#ccc';
+        }
+      });
+    }
+
+    function toggleTopicComplete(topicId, event) {
+      event.stopPropagation();
+      event.preventDefault();
+      
+      const currentState = localStorage.getItem(topicId) === 'true';
+      localStorage.setItem(topicId, currentState ? 'false' : 'true');
+      updateProgress();
+    }
+
+    function clearAllProgress() {
+      if (confirm('¿Estás seguro de que deseas limpiar todo tu progreso?')) {
+        allTopics.forEach(topic => localStorage.removeItem(topic));
+        updateProgress();
+      }
+    }
+
+    // Add click handlers to all completion badges
+    document.querySelectorAll('.completion-badge').forEach(badge => {
+      badge.addEventListener('click', function(event) {
+        const topicId = this.getAttribute('data-topic-id');
+        toggleTopicComplete(topicId, event);
+      });
+    });
+
+    // Initialize progress on page load
+    window.addEventListener('load', updateProgress);
+  </script>
+
+</body>
+</html>
